@@ -19,14 +19,14 @@ else:
         else:
             break
     if len(nums_o) != 0 and len(nums_c) != 0:
-        print(f'NUMBA {min(nums_o[0], nums_c[0]) + 1} IS A GD FUCKER')
+        print(f'NUMBA {min(nums_o[0], nums_c[0]) + 1} IS WRONG')
     elif len(nums_o) == 0 and len(nums_c) == 0:
         print(f'DA {st} IS A GOOD BOY')
     else:
         try:
-            print(f'NUMBA {nums_o[0] + 1} IS A GD FUCKER')
+            print(f'NUMBA {nums_o[0] + 1} IS WRONG')
         except IndexError:
-            print(f'NUMBA {nums_c[0] + 1} IS A GD FUCKER')
+            print(f'NUMBA {nums_c[0] + 1} IS WRONG')
 
 
 
